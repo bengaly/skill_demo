@@ -1,0 +1,5 @@
+<p>List of skills: {{ (skills | async)?.length }}</p>
+
+<div *ngFor="let skill of skills |async">
+    <p>{{skill.name}} - {{skill.experience}} <a href="#" (click)="deleteSkill(skill)">Supprimer</a></p>
+</div>

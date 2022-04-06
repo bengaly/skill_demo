@@ -1,0 +1,22 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "name": "Java",
+            "description": "Java",
+            "experience": 7
+        },
+        {
+            "id": 2,
+            "name": "Angular",
+            "description": "Angular",
+            "experience": 6
+        },
+        {
+            "id": 3,
+            "name": "Vue JS",
+            "description": "Vue JS",
+            "experience": 1
+        }
+    ]
+}

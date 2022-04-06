@@ -1,0 +1,8 @@
+<form>
+    <h2>Add a new skill</h2>
+    <p>id: <input name="skill_id" [(ngModel)]="skill.id" type="text" /></p>
+    <p>Name: <input name="skill_name" [(ngModel)]="skill.name" type="text" /></p>
+    <p>description: <input name="skill_description" [(ngModel)]="skill.description" type="text" /></p>
+    <p>experience: <input name="skill_description" [(ngModel)]="skill.experience" type="text" /></p>
+    <button (click)="addSkill(skill)">Add</button>
+</form>
